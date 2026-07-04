@@ -1,0 +1,260 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero */
+.hero {
+  background: #f3f3f3;
+  padding: 80px 0;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text img {
+  width: 80%;
+}
+
+.hero-text {
+  width: 45%;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-text h4 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-left: 20px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.store-btn {
+  margin-left: 15px;
+}
+
+.store-btn img {
+  width: 170px;
+  margin-right: 10px;
+}
+
+/* channel */
+.channels {
+  padding: 20px 0;
+}
+
+.channels .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channels .left {
+  width: 48%;
+}
+
+.channels .right {
+  width: 48%;
+  text-align: center;
+}
+
+.channels .left img {
+  width: 100%;
+}
+
+.channels h2 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.channels p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: #777;
+  font-weight: 300;
+}
+
+/* Message */
+
+.messages {
+  padding: 20px 0;
+}
+
+.messages .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.messages .left {
+  width: 48%;
+  text-align: center;
+}
+
+.messages .right {
+  width: 48%;
+}
+
+.messages .right img {
+  width: 100%;
+}
+
+.messages h2 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.messages p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: #777;
+  font-weight: 300;
+}
+
+/* Future */
+.future {
+  padding: 100px 0;
+}
+
+.future .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.future .left {
+  width: 48%;
+}
+
+.future .right {
+  width: 48%;
+  text-align: center;
+}
+
+.future .left img {
+  width: 100%;
+}
+
+.future .icons {
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+.future h2 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.future p {
+  font-size: 28px;
+  line-height: 1.5;
+  color: #777;
+  font-weight: 300;
+}
+
+/* Footer */
+footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer .footer_heading {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 25px;
+}
+footer p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+footer a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin-top: 35px;
+  width: 10%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero .container,
+  .channels .container,
+  .messages .container,
+  .future .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text,
+  .hero-image,
+  .channels .left,
+  .channels .right,
+  .messages .left,
+  .messages .right,
+  .future .left,
+  .future .right {
+    width: 100%;
+  }
+
+  .hero-image,
+  .messages .right,
+  .future .left {
+    margin-top: 40px;
+  }
+
+  .channels .left,
+  .future .left {
+    margin-bottom: 40px;
+  }
+
+  .store-btn img {
+    width: 140px;
+    margin: 10px;
+  }
+
+  .channels p,
+  .messages p,
+  .future p {
+    font-size: 22px;
+  }
+}
